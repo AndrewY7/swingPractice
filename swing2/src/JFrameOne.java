@@ -1,4 +1,4 @@
-package swing2;
+package swing2.src;
 
 import javax.swing.JFrame;
 
@@ -11,6 +11,8 @@ public class JFrameOne extends JFrame {
         setTitle("JFrameOne");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setSize(500,400);
-        
+        setLocationRelativeTo(null);   
+        setResizable(false); 
+        setVisible(true);
     }
 }

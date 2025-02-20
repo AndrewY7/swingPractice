@@ -1,13 +1,15 @@
-package swing2;
+package swing1;
 
 import javax.swing.SwingUtilities;
 
-public class JFrameDemo {
+public class Launcher {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
+            
             @Override
             public void run() {
-               JFrameOne frame1 = new JFrameOne(); 
+                MainWindow main = new MainWindow();
+                main.show();
             }
         });
     }

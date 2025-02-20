@@ -1,4 +1,4 @@
-package swingpractice;
+package swing1;
 
 import javax.swing.JFrame;
 
