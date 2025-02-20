@@ -12,7 +12,7 @@ public class JFrameOne extends JFrame {
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setSize(500,400);
         setLocationRelativeTo(null);   
-        setResizable(false); 
+        setResizable(false);        
         setVisible(true);
     }
 }
